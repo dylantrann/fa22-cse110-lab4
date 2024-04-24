@@ -1,0 +1,1 @@
+The bug was that the numbers `num1` and `num2` were being treated as string variables rather than numbers. This caused `num2` to be appended to `num1` as a string literal, returning a string value rather than a number. 
